@@ -19,7 +19,7 @@ Before you get started, here are the things you’ll need:
 *   Access to an Okta tenant with Okta Workflows enabled for your org 
 *   Email service, in this sample O365 is used. Configure O365 Workflow Connector.
 *   Create Okta group named "AcmeUsers"
-*   Create HTTP Connector for API stub Auth = none
+*   The External API calls in this sample are using a mock API. Create HTTP Connector for mock API Auth = none
 
 
 ## Setup Steps
