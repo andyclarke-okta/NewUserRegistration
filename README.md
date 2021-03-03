@@ -3,7 +3,7 @@
 
 ## <span style="text-decoration:underline;">Overview</span>
 
-Many CIAM customers have multiple branded applications protected by Okta. Branded communications  maintains brand awareness and doesn't confuse customers with unrecognized messages. Many business units also require unique handling of end users. 
+In CIAM use cases, many business units, locales and brands may require distinct user management operations. Okta Workflows can help implement custom processing of the registration context. 
 
 In this template, the context of a new user registration is processed by Workflows which shall customize the branding, customize the birthright enablement and link to external systems for duplication verification and Preference Management.
 The External Check for existing users is implemented with an API stub. In an actual use case a specific HTTP Connector shall be configure along with the needed API Request JSON to match your system requirements. Similarly, the Preference Management 

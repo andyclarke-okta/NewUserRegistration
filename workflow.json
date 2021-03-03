@@ -1,7 +1,7 @@
 {
   "name": "new_user_registration",
   "title": "New User Registration",
-  "description": "Many CIAM customers have multiple branded applications protected by Okta. Branded communications  maintains brand awareness and don't confuse customers with unrecognized messages. Many business units require unique handling of end users. In this template the context of a new user registration is processed by Workflows which shall customize the branding, customize the birthright enablement and link to external systems for duplication verification and Preference Management.",
+  "description": "In CIAM use cases, many business units, locales and brands may require distinct user management operations. Okta Workflows can help implement custom processing of the registration context..",
   "connectors": [
     "okta","O365", "HTTP Connector"
   ],
