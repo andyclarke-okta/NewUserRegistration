@@ -3,9 +3,9 @@
 
 ## <span style="text-decoration:underline;">Overview</span>
 
-Many CIAM customers have multiple branded applications protected by Okta. Branded communications  maintains brand awareness and don't confuse customers with unrecognized messages. Many business units require unique handling of end users. 
+Many CIAM customers have multiple branded applications protected by Okta. Branded communications  maintains brand awareness and doesn't confuse customers with unrecognized messages. Many business units also require unique handling of end users. 
 
-In this template the context of a new user registration is processed by Workflows which shall customize the branding, customize the birthright enablement and link to external systems for duplication verification and Preference Management.
+In this template, the context of a new user registration is processed by Workflows which shall customize the branding, customize the birthright enablement and link to external systems for duplication verification and Preference Management.
 The External Check for existing users is implemented with an API stub. In an actual use case a specific HTTP Connector shall be configure along with the needed API Request JSON to match your system requirements. Similarly, the Preference Management 
 is implemented with a stub, but can be substituted with an Okta Workflow built in Connector such as DataGrail or OneTrust, as well as , any system that supports API comminication.
 
@@ -19,6 +19,7 @@ Before you get started, here are the things you’ll need:
 *   Access to an Okta tenant with Okta Workflows enabled for your org 
 *   Email service, in this sample O365 is used. Configure O365 Workflow Connector.
 *   Create Okta group named "AcmeUsers"
+*   Create HTTP Connector for API stub Auth = none
 
 
 ## Setup Steps
