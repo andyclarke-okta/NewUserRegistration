@@ -28,9 +28,9 @@ Before you get started, here are the things you’ll need:
 
 1. Select  parent flow titled “Create_User_wExtCheck”
     1. Make sure a connection is selected for the instances of the “HTTP Raw Request” cards. This card is used to link to external duplicate user check.
-	2. In the Action event card titled “ On Demain API Endpoint”  at the far left of the flow, click the “&lt;/>” link at the bottom right of the card.
-		1. Check the radio button ‘Expose as Webhook”
-		2. Copy the “Invoke URL” from the top of the popup up to but NOT including “?clientToken=&lt;xxxxxxxx>. Save this in a notepad
+	2. In the Action event card titled “On Demain API Endpoint”  at the far left of the flow, click the “&lt;/>” link at the bottom right of the card.
+		1. Check the radio button "Expose as Webhook”
+		2. Copy the “Invoke URL” from the top of the popup up to but NOT including “?clientToken=&lt;xxxxxxxx". Save this in a notepad
 		3. Copy the “Client Token”. Save this in a notepad.
 		4. These values shall be used by the calling party to initiate the operation.
 2. Select flow titled "[O365] Send Email HTML".
@@ -69,7 +69,7 @@ The easiest way to test a flow is to send new user registration payload Workflow
 "hasOptedOutSolicit":"false"
 }
 ```
-Note: The POSTMAN collection ia also available from the repo
+Note: The POSTMAN collection is also available from the repo
 
 2. Hit the “Send” for the POSTMAN request.
 3. View Flow History and verify it completed successfully.
